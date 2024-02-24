@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .row{
+            background-color: rgb(56, 108, 108);
+            margin-bottom: 10px;
+        }
+        .row div{
+            background-color: cornflowerblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Margin in Bootstrap</h1>
+        <div class="row">
+            <div class="col-6">Without Margin</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 m-3">Margin M-3</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 mt-3">Margin Top-3</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 mb-3">Margin Bottom-3</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 ml-3">Margin Start-2</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 mr-3">Margin End-2</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 m-lg-3 m-2">Margin End-2</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 m-lg-5 m-3">Margin End-2</div>
+            <div class="col-4">Sample</div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+<!--
+  m-> Left,Top,Right,Bottom  (0-5)
+  mt-2
+  ms
+  me
+  mb
+  
+  mx
+  my
+
+  m-*-5  *XXL XL LG MD SM
+
+  0 = 0px
+  1 = 16px * 0.25 => 4px
+  2 = 16px * 0.5  => 8px
+  3 = 16px * 1    => 16px
+  4 = 16px * 1.5  => 24px
+  5 = 16px * 3    => 48px
+-->

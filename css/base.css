@@ -1,0 +1,49 @@
+body{
+    margin-top: 70px;
+}
+
+body::before{
+    content: 'EXTRA SMALL';
+    color: orangered;
+    font-size: 30px;
+    position: fixed;
+    font-weight: bold;
+    left: 10px;
+    top: 10px;
+}
+
+/* <576px */
+@media (min-width: 576px){
+    body::before{
+        content: 'SMALL';
+    }
+}
+
+/* >=576px */
+@media (min-width: 768px){
+    body::before{
+        content: 'MEDIUM';
+    }
+}
+
+/* >=768px */
+@media (min-width: 992px){
+    body::before{
+        content: 'LARGE';
+    }
+}
+
+/* >=992px */
+@media (min-width: 1200px){
+    body::before{
+        content: 'EXTRA LARGE';
+    }
+}
+
+/* >=1200px */
+@media (min-width: 1400px){
+    body::before{
+        content: 'EXTRA EXTRA LARGE';
+    }
+}
+

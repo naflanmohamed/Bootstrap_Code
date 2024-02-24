@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Document</title>
+    
+    <style>
+        .container,
+        .container-sm,
+        .container-md,
+        .container-lg,
+        .container-xl, 
+        .container-fluid{
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container" id="div">
+        <h2 id="size" class="text-primary"></h2>
+    </div>
+    <div class="container" id="div">
+        <h1 class="text-primary">Container Extra Small</h1>
+        
+    </div>
+
+    <div class="container-sm" id="div">
+        <h1 class="text-primary">Container Small</h1>
+    </div>
+    <div class="container-md" id="div">
+        <h1 class="text-primary">Container Medium</h1>
+    </div>
+    <div class="container-lg" id="div">
+        <h1 class="text-primary">Container Large</h1>
+    </div>
+    <div class="container-xl" id="div">
+        <h1 class="text-primary">Container Extra Large</h1>
+    </div>
+    <div class="container-fluid" id="div">
+        <h1 class="text-primary">Container Fluid</h1>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        window.onresize = function(event){
+           var width = document.getElementById("div").clientWidth;
+           document.getElementById("size").innerHTML = width;
+        }
+    </script>
+</body>
+</html>

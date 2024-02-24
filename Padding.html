@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .row{
+            background-color: rgb(56, 108, 108);
+            margin-bottom: 10px;
+        }
+        .row div{
+            background-color: cornflowerblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Padding in Bootstrap</h1>
+        <div class="row">
+            <div class="col-6">Without Paading</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 p-3">Paading P-3</div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 pt-3">Padding TOP PT-3 </div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 pb-3">Padding Bottom PB-3 </div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 ps-3">Padding Start PS-3 </div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 pe-4">Padding End PE-3 </div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 px-3">Padding PX-3 </div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 py-3">Padding PY-3 </div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 py-3">Padding PY-3 </div>
+            <div class="col-4">Sample</div>
+        </div>
+        <div class="row">
+            <div class="col-6 p-lg-5 p-2">Padding For Large </div>
+            <div class="col-4">Sample</div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+<!--
+  p-5  (0-5)
+  p-lg-3
+
+  ps-1
+  pe-1
+  pt-1
+  pb-1
+
+  pb-lg-1
+
+ 0 = 0px
+  1 = 16px * 0.25 => 4px
+  2 = 16px * 0.5  => 8px
+  3 = 16px * 1    => 16px
+  4 = 16px * 1.5  => 24px
+  5 = 16px * 3    => 48px
+
+
+  --->

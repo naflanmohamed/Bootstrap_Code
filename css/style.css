@@ -1,0 +1,11 @@
+body{
+    background-color: purple;
+}
+
+div.container{
+    background-color: #dfdfdf;
+}
+
+.p50{
+    padding: 50px;
+}

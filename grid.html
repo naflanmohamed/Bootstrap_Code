@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: rgb(139, 137, 137);
+            padding: 20px;
+        }
+        .row, .row-cols-2, .row-cols-auto{
+            background-color: rgb(126, 190, 245);
+            padding: 10px;
+        }
+        .col, .col-7, .col-5, .col-6,
+        .col-sm-8, .col-sm-4, .col-xl-4{
+            background-color: rgb(13, 119, 119);
+            padding: 20px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Bootstrap Workshop</h1> -->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col-5"></div> 
+            <div class="col-7"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-6"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8"></div> 
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4"></div> 
+            <div class="col-xl-4"></div>
+            <div class="col-xl-4"></div>
+        </div>
+        <div class="row row-cols-2"> <!-- row-cols-(1-6) -->
+            <div class="col"></div> 
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row row-cols-auto"> <!-- it will take the width of the content -->
+            <div class="col"></div> 
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row row-cols-xxl-6 row-cols-xl-5 row-cols-lg-4 row-cols-md-3
+        row-cols-sm-2 row-cols-xs-1">
+            <div class="col"></div> 
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
